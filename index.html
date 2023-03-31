@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    
+    <div class="bobub">
+        <div class="wrong">
+            <i class="fa-solid fa-x"></i>
+            <h4>Wrong</h4>
+            <span>the password don't equal confirm Password!</span>
+        </div>
+
+        <div class="success">
+            <i class="fa-solid fa-check"></i>
+            <h4>Success</h4>
+            <span>sign up is success</span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div id="signUp">
+            <div class="form">
+                <h2>Sign Up</h2>
+                <form action="">
+                    <div>
+                        <label for="">
+                            <i class="fa-solid fa-user"></i>User Name <br>
+                            <input type="text" id="user-name" required>
+                            
+                        </label>
+                    </div>
+                    <div>
+                        <label for="">
+                            <i class="fa-solid fa-envelope"></i>Email <br>
+                            <input type="email" id="email" required>
+                            
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="">
+                            <i class="fa-solid fa-lock"></i>Password <br>
+                            <input type="password" id="password" required>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="">
+                            <i class="fa-solid fa-lock"></i>Confirm Password <br>
+                            <input type="password" id="confirmPassword" required>
+                            
+                        </label>
+                    </div>
+
+                    <div class="radio">
+                        <label for="">
+                            <input type="radio" name="gender" value="Male" checked>
+                            <span>Male</span>
+                        </label>
+
+                        <label for="">
+                            <input type="radio" name="gender" value="Female">
+                            <span>Female</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <span class="btn"  id="btn-signUp">Sign Up</span>
+                    </div>
+
+                    <div class="link">
+                        <span id="to-login"><a href="html/login.html"> to login </a> <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/signup.js"></script>
+    
+</body>
+
+</html>

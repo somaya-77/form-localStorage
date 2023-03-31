@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bobub {
+    position: absolute;
+    top: 35%;
+    left: 15px;
+}
+
+.bobub .wrong i {
+    color: red;
+    border: 3px solid red;
+}
+
+.bobub .wrong h4 {
+    color: red;
+}
+
+.bobub .success i {
+    color: green;
+    border: 3px solid green;
+}
+
+.bobub .success h4 {
+    color: green;
+}
+
+.bobub .wrong,
+.bobub .success {
+    transform: translateX(-1000px);
+    position: absolute;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 5px 3px #000;
+    transition: transform 0.35s linear;
+}
+
+.bobub .wrong i,
+.bobub .success i {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+}
+
+.bobub .wrong h4,
+.bobub .success h4 {
+    margin: 13px 0;
+    font-size: 30px;
+}
+
+.bobub .wrong span,
+.bobub .success span {
+    color: #555;
+    font-size: 18px;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 120px;
+    background-image: url(../image/gallery-img-8.jpg);
+    background-size: 100% 100%;
+}
+
+.form {
+    color: #fff;
+    background-color: #0a1926;
+    margin: 0 auto;
+    width: 450px;
+    padding: 35px;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+input {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #222;
+    color: #fff;
+}
+.progress {
+    transition: 0.5s;
+    display: block;
+    height: 2px;
+    background: red;
+    position: relative;
+    width: 0;
+    top: -2px;
+}
+form div {
+    margin-bottom: 15px;
+}
+
+form div input {
+    margin-top: 7px;
+}
+
+.radio label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 13px;
+}
+
+.radio label input {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+label {
+    font-size: 13px;
+}
+
+i {
+    margin-right: 9px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 9px 19px;
+    background-color: #111;
+    color: red;
+    font-weight: bold;
+    border-radius: 9px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.link span {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    cursor: pointer;
+}
+
+.link i {
+    margin-left: 5px;
+}
+
+a{
+    color: #fff;
+}
+/* ****************************************************** */
